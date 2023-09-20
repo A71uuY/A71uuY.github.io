@@ -1,3 +1,3 @@
-# nanaralala.github.io
+# A71uuY.github.io
 
-Go to this webpage! https://a71uuy.github.io/nanaralala.github.io/
+Go to this webpage! https://A71uuY.github.io
