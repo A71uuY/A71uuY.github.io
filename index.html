@@ -1,24 +1,14 @@
-<head><title>Libo Zhang's (张立博) Page</title></head>
+<head>
+    <title>Libo Zhang's (张立博) Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
 <body>
 <h1 class="aa"><strong>Libo Zhang (张立博)</strong></h1>
-<hr>
-<p>I'm <strong id="randomWord">Loading...</strong> right now, probably.</p>
 
-<script>
-  document.getElementById("randomWord").innerHTML = 
-    ["protecting the Earth from aliens", "finding Ultraman's transformation device", "travelling through time to save dinosaurs from the meteorites", "developing future gadgets", "generating my 23rd personality in my brain","tempering my courage in alcohol and caffeine"][Math.floor(Math.random() * 6)];
-</script>
-<hr>
 
-<p>I'm Libo Zhang (张立博), a Ph.D student at the <a href="https://www.liuailab.org/">Liu AI Lab</a> in <a href="https://www.auckland.ac.nz/">The University of Auckland.</a> I received a degree of Master of Professional Studies with First Class Honours in Data Science, the Graduate Diploma in Science from the University of Auckland in 2021, and the Bachelor degree from the Southwest University in 2020. 
+<p>I'm Libo Zhang (张立博), a Ph.D. student at the <a href="https://www.liuailab.org/">Liu AI Lab</a> in <a href="https://www.auckland.ac.nz/">The University of Auckland.</a> I received a degree of Master of Professional Studies with First Class Honours in Data Science, the Graduate Diploma in Science from the University of Auckland in 2021, and the Bachelor degree from the Southwest University in 2020. 
 </p>
 
-<h2 class="aaa">Something Other Than Research</h2>
-<ul>
-    <li style="margin-bottom:10px;"> Drinking coffee </li>
-    <li style="margin-bottom:10px;"> Guitar </li>
-    <li style="margin-bottom:10px;"> Taking a walk at midnight </li>
-</ul>
 
 <h2 class="aaa">Research Interest</h2>
 <ul>
@@ -34,7 +24,7 @@
     <li style="margin-bottom:10px;"> 2020-2021 Master of Professional Studies in Data Science. <a href="https://www.auckland.ac.nz/">The University of Auckland</a>. </li>
 </ul>
 
-<h2 class="aaa">Papers</h2>
+<h2 class="aaa">Research Outcomes</h2>
 
 <ul>
 
@@ -128,11 +118,19 @@
 	</li>
 </ul>
 
+
 <h2 class="aaa">Contact</h2>
 
 <ul>
     <li> Office: Room 435, Building 903, 314-390 Khyber Pass Road, Newmarket, Auckland 1023 </li>
     <li> Email: lzha797[at]aucklanduni.ac.nz </li>
+</ul>
+
+<h2 class="pixel-title">Something Other Than Research</h2>
+<ul class="pixel-list">
+    <li style="margin-bottom:10px;"> Drinking coffee ☕</li>
+    <li style="margin-bottom:10px;"> Guitar 🎸</li>
+    <li style="margin-bottom:10px;"> Taking a night walk 🌙</li>
 </ul>
 
 </body>
@@ -141,28 +139,78 @@
 <style type="text/css">
 <!--
 body {
-    background-color: #FDFBE6;
-    font-size: 18;
+    background-color: rgb(214, 225, 238); /* 背景保持偏蓝 */
+    font-size: 18px;
     text-align: left;
-    color: #423C30;
+    color: rgb(48, 62, 57); /* 主文字颜色调整为深灰绿色 */
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
 .aa {
-    color: #FF0;
+    color: rgb(74, 102, 95); /* 主标题加深，更突出 */
     font-size: xx-large;
 }
-.aa {
-    color: #F00;
-}
+
 .aa strong {
-    color: #B44541;
+    color: rgb(58, 72, 67); /* 与主文字保持一致 */
 }
+
 .aaa {
     font-size: x-large;
-    color: #423C30;
+    color: rgb(85, 115, 105); /* 二级标题使用更深的色调 */
+    border-bottom: 2px solid rgb(115, 135, 125);
+    padding-bottom: 5px;
+    margin-top: 30px;
 }
-.bb {
-    font-size: large;
-    color: #A889A3;
+
+a {
+    color: rgb(65, 115, 155); /* 加深蓝色调，增加与正文的对比度 */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: rgb(85, 135, 175); /* 悬停时颜色变亮但保持在蓝色系 */
+    text-decoration: underline;
+}
+
+/* 为论文标题添加样式 */
+b {
+    color: rgb(38, 72, 65); /* 论文标题保持深色 */
+}
+
+/* 为期刊名称添加样式 */
+em {
+    color: rgb(85, 115, 105); /* 期刊名称保持原样 */
+}
+
+.pixel-title {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(85, 115, 105);
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid rgb(115, 135, 125);
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.pixel-list {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7em;
+    color: rgb(85, 115, 105);
+    line-height: 2;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pixel-list li::before {
+    content: "►";
+    margin-right: 10px;
+    color: rgb(115, 135, 125);
 }
 -->
 </style>
